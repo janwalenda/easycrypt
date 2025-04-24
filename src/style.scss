@@ -136,13 +136,8 @@ main {
       appearance: none;
       border-style: none none solid none;
       border-width: 1px;
+      border-radius: 0;
       outline: none;
-      &:focus,
-      &:focus-active,
-      &:active,
-      &:hover {
-        border-bottom-width: 3px;
-      }
     }
     &>div{
       display:flex;
