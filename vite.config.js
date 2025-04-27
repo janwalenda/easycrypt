@@ -7,9 +7,6 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifestFilename: 'easycrypt.manifest',
-      devOptions: {
-        enabled: true,
-      },
       manifest: {
         name: 'EasyCrypt',
         short_name: 'EC',
