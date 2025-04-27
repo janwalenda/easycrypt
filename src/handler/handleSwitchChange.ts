@@ -7,6 +7,6 @@ export function handleSwitchChange(): void {
 
   if (!labelSpan || !switcherCheckbox) return;
 
-  labelSpan.textContent = switcherCheckbox.checked ? "Encrypt:" : "Decrypt:";
+  labelSpan.textContent = switcherCheckbox.checked ? "Encrypt" : "Decrypt";
   updateOutput();
 }
