@@ -102,12 +102,7 @@ $screen-xl-max: 5000px;
     @return #fff;
   }
 }
-$primary: #dad7cd;
-$secondary: #588157;
 
-$primaryDark: #020202;
-$secondaryDark: #058c42;
-$text: text($primaryDark);
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -144,7 +139,7 @@ body {
   padding: .5rem;
   border-radius: .25rem;
   border-style: solid;
-  border-width: .5px;
+  border-width: 1px;
   background-color: transparent;
   height: 2rem;
   outline: none;
@@ -197,6 +192,7 @@ svg {
 
 * {
   box-sizing: border-box;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 main {
