@@ -131,7 +131,7 @@ body {
   height: 100%;
   background-color: var(--primary);
   background-image: linear-gradient(19deg, var(--primary) 0%, var(--secondary) 100%);
-
+  overflow: hidden;
 }
 
 @mixin inputDefault() {
