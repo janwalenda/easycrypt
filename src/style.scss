@@ -213,11 +213,11 @@ h1 {
   bottom: 1rem;
   left: 1rem;
   width: auto;
-  &:has(input[type=checkbox]:checked) .moon {
+  &:has(input[type=checkbox]:checked) .sun {
     display: none;
   }
 
-  &:has(input[type=checkbox]:not(:checked)) .sun {
+  &:has(input[type=checkbox]:not(:checked)) .moon {
     display: none;
   }
   inpur[type=checkbox] {
