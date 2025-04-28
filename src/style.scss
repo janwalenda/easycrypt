@@ -192,17 +192,11 @@ main {
   height: 100%;
 }
 
-label {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  &>output#output {
-    text-wrap: wrap;
-    color: rgb(var(--text));
-    word-break: break-all;
-    white-space: pre-wrap;
-  }
+output#output {
+  text-wrap: wrap;
+  color: rgb(var(--text));
+  word-break: break-all;
+  white-space: pre-wrap;
 }
 
 h1 {
