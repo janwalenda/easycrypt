@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { icons } from './icons.json';
+import { screenshots } from './screenshots.json';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,26 +16,8 @@ export default defineConfig({
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#000000',
-        icons: [
-          {
-            src: '/favicon.png',
-            sizes: '512x512',
-            type: 'image/png',
-          },
-        ],
-        screenshots: [
-          {
-            src: '/screenshot.png',
-            sizes: '1350x2012',
-            type: 'image/png',
-          },
-          {
-            src: '/screenshot_wide.png',
-            sizes: '2784x2008',
-            type: 'image/png',
-            form_factor: 'wide'
-          },
-        ]
+        icons,
+        screenshots,
       }
     }),
   ],

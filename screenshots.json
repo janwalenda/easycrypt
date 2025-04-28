@@ -1,0 +1,42 @@
+{
+  "screenshots": [
+    {
+      "src": "screenshots/Desktop.jpeg",
+      "sizes": "2794x2016",
+      "platform": "macos"
+    },
+    {
+      "src": "screenshots/iPad Pro wide.png",
+      "sizes": "2732x2048",
+      "form_factor": "wide",
+      "platform": "ios"
+    },
+    {
+      "src": "screenshots/iPad Pro.png",
+      "sizes": "2048x2732",
+      "platform": "ios"
+    },
+    {
+      "src": "screenshots/iPhone SE dark wide.png",
+      "sizes": "1334x750",
+      "form_factor": "wide",
+      "platform": "ios"
+    },
+    {
+      "src": "screenshots/iPhone SE dark.png",
+      "sizes": "750x1334",
+      "platform": "ios"
+    },
+    {
+      "src": "screenshots/iPhone SE wide.png",
+      "sizes": "1334x750",
+      "form_factor": "wide",
+      "platform": "ios"
+    },
+    {
+      "src": "screenshots/iPhone SE.png",
+      "sizes": "750x1334",
+      "platform": "ios"
+    }
+  ]
+}
