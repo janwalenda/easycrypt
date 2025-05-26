@@ -2,6 +2,9 @@ import { EasyCrypt } from "./class/EasyCrypt";
 import "./style.scss";
 import { Key } from "./class/Key";
 import { App } from "./App";
+import { injectSpeedInsights } from "@vercel/speed-insights"
+
+injectSpeedInsights();
 
 function isLightMode(): boolean {
   return (
